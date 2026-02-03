@@ -25,8 +25,7 @@ A number of values are recorded per step of the simulation such as the total pop
 
 I used C++ for the simulation logic which requires heavy computation and used pybind11 to build the C++ code into a format compatible with python which means that i can combine the performance of C++ and the ease of use of graphical tools like matplotlib in python.
 
-#-----OBSERVED BEHAVIOUR-----#
-
+#-----OBSERVED BEHAVIOUR-----#               
 Stealer population rises after the sharer population rises (the stealers exploit the increased amount of sharing):
 
 <img width="696" height="828" alt="Untitled" src="https://github.com/user-attachments/assets/71602e74-01da-49f4-8c6d-42d096263d33" />
