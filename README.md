@@ -1,8 +1,7 @@
 # Neural-Network-Food-Sharing-Simulation
 A multi agent simulation where agents compete for food using the "Prisoner's Dilemma" ruleset where agents may share or steal food from the other which provokes the evolution of different strategies over time due to a survival of the fittest system.
 
-#-----SYSTEM ARCHITECTURE-----#
-
+#-----SYSTEM ARCHITECTURE-----#                       
 The prisoner's dilemma reward matrix vital to the simulation:
 
 <img width="766" height="565" alt="image" src="https://github.com/user-attachments/assets/45135f78-d116-4418-85f4-a92a26daf997" />
