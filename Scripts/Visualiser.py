@@ -2,12 +2,11 @@ import simulation
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, Button
 
-#Create 3 subplots for: 1. Pop/Success, 2. Reputation, 3. Social Classes
+#Create subplots for Pop/Success, Reputation and Strategies Prevelence
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(7, 8))
 fig.canvas.manager.set_window_title('Stealing vs Cooperation Simulation')
 plt.subplots_adjust(left=0.12, bottom=0.25, hspace=0.5, right=0.82)
 
-#Create the twin axis for Success Rate
 ax1_twin = ax1.twinx()
 
 #UI Element Axes
@@ -110,4 +109,5 @@ def run_experiment(event):
 
 run_button.on_clicked(run_experiment)
 print("Simulation Visualiser Ready.")
+
 plt.show()
