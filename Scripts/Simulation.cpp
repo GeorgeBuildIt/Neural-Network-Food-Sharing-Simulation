@@ -1,7 +1,7 @@
 #include "Simulation.h"
 #include <vector>
-#include <cstdlib> // Required for rand()
-#include <ctime>   // Required for time()
+#include <cstdlib> 
+#include <ctime> 
 
 //-----------NEURAL NETWROK FUNCTIONS-----------//
 NeuralNetwork::NeuralNetwork() 
@@ -247,3 +247,4 @@ double Simulation::GetAverageReputation()
 
     return total / static_cast<double>(agents.size());
 }
+
