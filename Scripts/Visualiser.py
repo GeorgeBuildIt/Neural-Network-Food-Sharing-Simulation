@@ -82,7 +82,7 @@ def run_experiment(event):
     ax1_twin.set_ylim(0, 105)
     ax1_twin.yaxis.set_label_position("right")
     
-    #Combined Legend for Graph 1
+    #Combined key for Graph 1
     h1, l1 = ax1.get_legend_handles_labels()
     h2, l2 = ax1_twin.get_legend_handles_labels()
     ax1.legend(h1 + h2, l1 + l2, loc='upper left', fontsize='small')
@@ -111,3 +111,4 @@ run_button.on_clicked(run_experiment)
 print("Simulation Visualiser Ready.")
 
 plt.show()
+
