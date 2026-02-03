@@ -7,6 +7,7 @@ The prisoner's dilemma reward matrix vital to the simulation:
 
 <img width="766" height="565" alt="image" src="https://github.com/user-attachments/assets/45135f78-d116-4418-85f4-a92a26daf997" />
 
+
 There are a number of environmental factors which dictate the evolution of the system namely the: mutation strength, cooperation reward, stealing reward, living cost and food availablity.
 The mutation strength affects the likelihood of a bias/ weight within the neural network being modified from the parent agents network (by ofsetting it by a small value between -0.02 and 0.02) when a child agent is created.
 The cooperation reward is the amount of energy that both agents recieve when they successfully cooperate in an interaction (when they both choose to share the food).
@@ -30,17 +31,22 @@ Stealer population rises after the sharer population rises (the stealers exploit
 
 <img width="696" height="828" alt="Untitled" src="https://github.com/user-attachments/assets/71602e74-01da-49f4-8c6d-42d096263d33" />
 
+
 Sharer population stabilises the total population and when most of the sharers die off the population begins to lower rapidy:
 
 <img width="698" height="826" alt="Untitled2" src="https://github.com/user-attachments/assets/3fb6c0ba-507b-46ff-824e-50cb86b7734d" />
+
 
 Indication of neural network evolution as there are no specialised sharers / stealers until a few steps into the simulation:
 
 <img width="697" height="825" alt="image" src="https://github.com/user-attachments/assets/e5bae7f9-cb74-447f-ba64-3e5002d36677" />
 
+
 No Sharers evolve under harsh conditions where there is high living cost where loss of food from an interaction is more costly:
 
 <img width="697" height="871" alt="image" src="https://github.com/user-attachments/assets/2c1368b2-70c0-41a8-9e9d-1fefff18df84" />
 
+
 Sharers benefit from low populations with other sharers leading to exponential population growth:
+
 <img width="692" height="824" alt="image" src="https://github.com/user-attachments/assets/4f5b5f93-3a56-48a6-9cac-189c3bd38f75" />
