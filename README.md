@@ -49,6 +49,9 @@ Sharers benefit from low populations with other sharers leading to exponential p
 
 <img width="692" height="824" alt="image" src="https://github.com/user-attachments/assets/4f5b5f93-3a56-48a6-9cac-189c3bd38f75" />
 
+Natural population cap as the metabolism cost is proportional to the total population due to the crowding penalty, preventing exponential growth:
+
+<img width="696" height="829" alt="image" src="https://github.com/user-attachments/assets/94b958a8-7953-4376-a107-1461f34d819e" />
 
 
 #-----BUILD PROCESS-----#                  
