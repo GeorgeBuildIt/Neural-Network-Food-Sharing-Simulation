@@ -56,5 +56,5 @@ Natural population cap as the metabolism cost is proportional to the total popul
 
 #-----BUILD PROCESS-----#                  
 Using pybind11 as previously mentioned i created the Main.cpp file which communicates to the setup.py file where i run this command in the terminal (python setup.py build_ext --inplace) to build the C++ code into a .pyd file which can then be read by python in the visualiser.py file where import simulation is used to call all simulation functions and access the variables.                      
-I then used Pyinstaller to compile the entire project into the exe file which i have uploaded into the releases using this command:                    
+I then used Pyinstaller to compile the entire project into the exe file which i have uploaded into the releases using this command:                                                                                                      
 python -m PyInstaller --noconfirm --onefile --windowed --collect-all matplotlib --paths "." --add-binary "simulation.cp312-win_amd64.pyd;." Visualiser.py.
