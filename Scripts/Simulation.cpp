@@ -197,7 +197,7 @@ void Simulation::Step()
             nextGeneration.push_back(agent);
 
             //Reproduce given enough energy
-            float birthThreshold = 30.0f + (agents.size() / 10.0f); 
+            float birthThreshold = 30.0f + crowdingPenalty; 
             if (agent.energy > birthThreshold) 
             {
                 nextGeneration.push_back(agent.Spawn(mutationStrength));
@@ -247,4 +247,5 @@ double Simulation::GetAverageReputation()
 
     return total / static_cast<double>(agents.size());
 }
+
 
